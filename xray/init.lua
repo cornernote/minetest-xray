@@ -83,8 +83,8 @@ end)
 
 -- register_abm - restore any stray xray:stone nodes to default:stone
 minetest.register_abm({
-    nodenames = {"xray:stone"},
-    interval = xray.timer,
-    chance = 1,
-    action = xray.restore,
+	nodenames = {"xray:stone"},
+	interval = xray.timer,
+	chance = 1,
+	action = xray.restore,
 })
