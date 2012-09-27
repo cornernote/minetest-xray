@@ -3,7 +3,7 @@
 xray = {}
 
 -- the range of the xray effect
-xray.range = 10
+xray.range = 5
 
 -- how long before the nodes turn back to stone
 xray.timer = 10
@@ -69,6 +69,15 @@ minetest.register_node("xray:stone", {
 	drop = 'default:cobble',
 	legacy_mineral = true,
 	sounds = default.node_sound_stone_defaults(),
+	drawtype = "nodebox",
+	paramtype = "light",
+	walkable = true,
+	node_box = {
+		type = "fixed",
+		fixed = {
+			{-1,-1,-1, 1,1,1},
+		},
+	},
 })
 
 -- register_globalstep - replace default:stone with xray:stone in range of players with xray
