@@ -3,7 +3,7 @@ X-Ray for Minetest
 ----------------------------------
 
 Copyright (C) 2012 InfinityProject
-Home Page: http://minetest.net/forum/viewtopic.php?id=3191
+Home Page: https://forum.minetest.net/viewtopic.php?id=3191
 
 
 ----------------------------------
